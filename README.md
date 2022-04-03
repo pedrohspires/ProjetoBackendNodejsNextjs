@@ -22,4 +22,8 @@ This project has been created using Node.js for backend and Next.js for frontend
     * Express - Utilizado para montar o servidor e deixar tudo funcionando.
     * Nodemon - Impede que o servidor precise ser reiniciado toda vez que uma alteração seja feita nos arquivos.
     * Sucrase - Utiliza "import" ao invés de "require" no momento de adicionar novos arquivos (opcional).
-    * Conceitos como rotas, classes para organizar, para que serve os arquivos app.js, server.js, routes/index.js. Configurações iniciais para nodemon, criação do script para manter o servidor ligado (nodemon).
+    * Conceitos como rotas, classes para organizar, para que serve os arquivos app.js, server.js, routes/index.js. Configurações iniciais para nodemon, criação do script para manter o servidor ligado (nodemon).<br><br>
+* Vídeo 05 - Nesse vídeo foram feitas configurações relacionadas a padrões de projeto que podem ajudar no desenvolvimento coletivo em empresas, por exemplo. Eles ajudam na padronização de diversos padrões que podem ser diferentes para cada desenvolvedor, como identação.
+    * ESLint - módulo que analisa um código de forma estática e rápida para encontrar problemas. Oferece também correções autmáticas. É customizável, ou seja, o programador pode customizar o ESLint para se adequar aos seus padrões.
+    * Prettier - é um formatador de códigos opinativo que garante que o código obedeça um padrão.
+    * EditorConfig - ajuda a manter estilos de código, corrigindo automáticamente o código.
