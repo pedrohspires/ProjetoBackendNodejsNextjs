@@ -7,20 +7,20 @@ import routes from './routes/index';
  */
 class App {
     // Faz as configurações iniciais do servidor
-    constructor(){
+    constructor() {
         this.server = express();
         this.middlewares();
         this.routes();
     }
 
     // Informa para o servidor que deve ser utilziado JSON
-    middlewares(){
+    middlewares() {
         this.server.use(express.json());
     }
 
     // Informa para o servidor (express) que deve ser utilizado o arquivo o
     // módulo do arquivo src/routes.js para configurar as rotas.
-    routes(){
+    routes() {
         this.server.use(routes);
     }
 }
